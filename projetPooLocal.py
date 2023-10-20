@@ -1,11 +1,11 @@
 class Personne:
     """
-    Cette classe représente une personne avec des attributs tels que le nom, le prénom et l'âge.
+    Cette classe represente une personne avec des attributs tels que le nom, le prenom et l'age.
 
     Attributes:
         nom (str): Le nom de la personne.
-        prenom (str): Le prénom de la personne.
-        __age (int): L'âge de la personne (notez le double underscore, ce qui le rend "privé").
+        prenom (str): Le prenom de la personne.
+        __age (int): L'age de la personne (notez le double underscore, ce qui le rend "prive").
     """
 
     def __init__(self, nom, prenom, age):
